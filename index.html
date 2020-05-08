@@ -1,8 +1,27 @@
----
-layout: default
-title: Portfolio
----
-<div class="blurb">
-	<h1>Elijah Roth</h1>
-	
-</div><!-- /.blurb -->
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Portfolio</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		
+			</footer>
+		</body>
+	</html>
+© 2020 GitHub, Inc.
